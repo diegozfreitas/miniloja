@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+#produtos {
+  display: flex;
+}
+
+#produtos .title {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#list_produtos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#list_produtos .produto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  border: 1px solid #dedede;
+}
+
+#list_produtos .produto img {
+  width: 80%;
+}
+
+#list_produtos .produto h1 {
+  text-align: center;
+}
+
+#list_produtos .produto button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3d92b2;
+  border-radius: 4px;
+  border: 1px solid #3d92b2;
+  margin: auto;
+}
